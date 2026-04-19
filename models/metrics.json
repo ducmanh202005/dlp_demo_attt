@@ -1,0 +1,55 @@
+{
+  "dataset_size": 2009,
+  "train_size": 1607,
+  "test_size": 402,
+  "labels": [
+    "leak_risk",
+    "safe",
+    "sensitive"
+  ],
+  "label_distribution": {
+    "leak_risk": 669,
+    "safe": 670,
+    "sensitive": 670
+  },
+  "test_accuracy": 1.0,
+  "test_macro_f1": 1.0,
+  "classification_report": {
+    "leak_risk": {
+      "precision": 1.0,
+      "recall": 1.0,
+      "f1-score": 1.0,
+      "support": 134.0
+    },
+    "safe": {
+      "precision": 1.0,
+      "recall": 1.0,
+      "f1-score": 1.0,
+      "support": 134.0
+    },
+    "sensitive": {
+      "precision": 1.0,
+      "recall": 1.0,
+      "f1-score": 1.0,
+      "support": 134.0
+    },
+    "accuracy": 1.0,
+    "macro avg": {
+      "precision": 1.0,
+      "recall": 1.0,
+      "f1-score": 1.0,
+      "support": 402.0
+    },
+    "weighted avg": {
+      "precision": 1.0,
+      "recall": 1.0,
+      "f1-score": 1.0,
+      "support": 402.0
+    }
+  },
+  "cv_folds": 5,
+  "cv_accuracy_mean": 0.9985,
+  "cv_accuracy_std": 0.002,
+  "cv_macro_f1_mean": 0.9985,
+  "cv_macro_f1_std": 0.002
+}
